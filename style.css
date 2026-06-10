@@ -1,6 +1,7 @@
 body {
+    position: relative;
     margin: 0;
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,5 +10,14 @@ body {
 }
 
 #politician {
-    max-height: 100vh;
+    padding-top: 50px;
+    max-height: 75vh;
+}
+
+#moustache {
+  position: absolute;
+  height: 7vh;
+  top: 90vh;
+  cursor: grab;
+  user-select: none;
 }
